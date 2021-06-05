@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 7.5px 15px;
+  margin: 0 10px 10px 0;
   overflow: hidden;
 
   &:hover {
@@ -31,14 +31,6 @@
     background-size: cover;
     background-position: center;
     transition: all 1.5s;
-  }
-
-  &:first-child {
-    margin-right: 7.5px;
-  }
-
-  &:last-child {
-    margin-left: 7.5px;
   }
 
   &-content {
