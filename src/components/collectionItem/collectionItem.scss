@@ -5,6 +5,7 @@
   height: 350px;
   align-items: center;
   padding-right: 2rem;
+  position: relative;
 
   &-image {
     width: 100%;
@@ -12,6 +13,25 @@
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
+  }
+
+  .custom-button {
+    width: 70%;
+    opacity: 0;
+    position: absolute;
+    bottom: 2.5rem;
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    &-image {
+      opacity: 0.8;
+    }
+
+    .custom-button {
+      opacity: 0.85;
+      transition: all 0.2s;
+    }
   }
 
   &-footer {
